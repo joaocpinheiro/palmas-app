@@ -3,6 +3,7 @@ import { Header } from '@/components/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Featured from '@/components/Featured'
+import ApartmentsHero from '@/components/ApartmentsHero'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Featured />
+      <ApartmentsHero />
       <About />
       <Footer />
     </main>

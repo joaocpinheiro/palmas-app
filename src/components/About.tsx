@@ -19,10 +19,12 @@ const About = () => {
             viewport={{ once: false, amount: 0.4 }}
             className="flex-1 relative"
           >
-            <Image src={'/about/img2.png'} width={559} height={721} alt="" />
+            <Image src={'/about/img2.png'} width={559} height={721} 
+            priority={true}
+            alt="" />
           </motion.div>
           <motion.div
-            variants={fadeIn('left', 0.2)}
+            variants={fadeIn('left', 0.5)}
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.4 }}
