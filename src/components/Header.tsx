@@ -4,7 +4,7 @@ import Nav from './Nav'
 
 export const Header = () => {
   return (
-    <header className="absolute w-full max-w-[1400px] py-8 xl:py-10">
+    <header className="fixed w-full max-w-[1400px] py-8 xl:py-10">
       <div className="container mx-auto">
         <div className="container mx-auto">
           <div className="flex justify-between items-center">

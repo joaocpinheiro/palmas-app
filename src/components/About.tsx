@@ -9,14 +9,14 @@ import { useMediaQuery } from 'react-responsive'
 
 const About = () => {
   return (
-    <section className="py-12 xl:pt-0 xl:pb-24">
+    <section className="bg-soft_green py-12 xl:pt-0 xl:pb-40">
       <div className="container mx-auto">
         <div className="items-center flex flex-col xl:flex-row">
           <motion.div
             variants={fadeIn('right', 0.2)}
             initial="hidden"
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: true, amount: 0.4 }}
             className="flex-1 relative"
           >
             <Image src={'/about/img2.png'} width={559} height={721} 
@@ -27,7 +27,7 @@ const About = () => {
             variants={fadeIn('left', 0.5)}
             initial="hidden"
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: true, amount: 0.4 }}
             className="xl:max-w-[470px]"
           >
             <h2 className="h2 mb-[38px]">About Palmas</h2>
