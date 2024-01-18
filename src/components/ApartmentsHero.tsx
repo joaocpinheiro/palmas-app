@@ -28,19 +28,14 @@ const ApartmentsHero = () => {
             <CardTitle className="container text-ellipsis h3">
               Palmas Beach Apto
             </CardTitle>
-            <CardDescription className=" container ml-0.5 space-y-1 text-black flex items-center gap-2 text-[13px] xl:text-md font-bold text-nowrap">
-              8.8 - Excelente
-              <span className="flex gap-1 items-center font-medium truncate">
-                <MapPin width={18} height={20} />
-                <span className='inline-block truncate'>
-                  Governador C. Ramos - Palmas
-                  
-                  </span>
-
-              </span>
-            </CardDescription>
+            <CardDescription></CardDescription>
           </CardHeader>
-          <CardContent className="">
+          <CardContent className="ml-2 p-2 space-y-1 text-black flex gap-2 text-[13px] xl:text-md font-normal flex-col">
+            <div className="flex gap-1 items-center">
+              <p className="mr-2">8.8 - Excelente</p>
+              <MapPin width={18} height={20} />
+              <p className="truncate">Governador C. Ramos - Palmas</p>
+            </div>
             <div className="mt-5 flex items-center gap-2 text-md font-bold">
               <Image
                 src="/recommendation/beach.png"
@@ -55,30 +50,27 @@ const ApartmentsHero = () => {
             <Button variant="accent">Veja mais</Button>
           </CardFooter>
         </Card>
-        <Card className="w-max-[500px] bg-soft_green-secondary border-grey-secondary rounded-xl shadow-xl">
+        <Card className="hover:cursor-pointer w-max-[500px] bg-soft_green-secondary border-grey-secondary rounded-xl shadow-xl">
           <CardHeader className="p-0 rounded-xl">
             <Image
               src="/recommendation/hotel-1.png"
               alt=""
-              width={450}
-              height={500}              className="rounded-xl rounded-b-none w-full"
+              width={500}
+              height={500}
+              quality={80}
+              className="rounded-xl rounded-b-none w-full"
             />
             <CardTitle className="container text-ellipsis h3">
               Palmas Beach Apto
             </CardTitle>
-            <CardDescription className=" container ml-0.5 space-y-1 text-black flex items-center gap-2 text-[13px] xl:text-md font-bold text-nowrap">
-              8.8 - Excelente
-              <span className="flex gap-1 items-center font-medium truncate">
-                <MapPin width={18} height={20} />
-                <span className='inline-block truncate'>
-                  Governador C. Ramos - Palmas
-                  
-                  </span>
-
-              </span>
-            </CardDescription>
+            <CardDescription></CardDescription>
           </CardHeader>
-          <CardContent className="">
+          <CardContent className="ml-0.5 p-1 space-y-1 text-black flex gap-2 text-[13px] xl:text-lg font-normal flex-col">
+            <div className="flex gap-1 items-center">
+              <p className="mr-2">8.8 - Excelente</p>
+              <MapPin width={18} height={20} />
+              <p className="truncate">Governador C. Ramos - Palmas</p>
+            </div>
             <div className="mt-5 flex items-center gap-2 text-md font-bold">
               <Image
                 src="/recommendation/beach.png"
