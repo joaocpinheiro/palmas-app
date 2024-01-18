@@ -1,0 +1,28 @@
+{
+  "apto1": [
+    {
+      "id": 1,
+      "title": "Apartamento Palmas 1",
+      "slug": "apartamento-palmas-1",
+      "image": [
+        {
+
+        }
+      ],
+      "description": "Apartamento Palmas 1" 
+    }
+  ],
+  "apto2": [
+    {
+      "id": 2,
+      "title": "Apartamento Palmas 2",
+      "slug": "apartamento-palmas-2",
+      "image": [
+        {
+
+        }
+      ],
+      "description": "Apartamento Palmas 2" 
+    }
+  ]
+}
