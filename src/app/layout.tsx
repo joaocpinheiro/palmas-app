@@ -1,12 +1,20 @@
 import type { Metadata } from 'next'
 // eslint-disable-next-line camelcase
 import { Open_Sans } from 'next/font/google'
+import { Lustria } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/Header'
 
 const openSans = Open_Sans({
   weight: ['300', '400', '500', '600', '700', '800'],
   subsets: ['latin'],
+  variable: '--openSans',
+})
+
+const lustria = Lustria({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-lustria',
 })
 
 export const metadata: Metadata = {
@@ -21,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={openSans.className}>
+      <body className={(openSans.variable, lustria.variable)}>
         <Header />
         {children}
       </body>

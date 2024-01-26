@@ -10,11 +10,11 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger>
-        <Menu size={36} className="text-white" />
+        <Menu size={36} className="text-black" />
       </SheetTrigger>
       <SheetContent side="left">
-        <div className="flex flex-col justify-between h-full p-12">
-          <Link href="/" className="mb-24">
+        <div className="flex h-full flex-col justify-between p-12 md:overflow-y-scroll lg:overflow-hidden">
+          <Link href="/" className="mb-24 text-violet-400">
             <Image
               src="/footer/logo.svg"
               width={90}
@@ -27,7 +27,7 @@ const MobileNav = () => {
             containerStyles="text-black"
             listStyles="flex flex-col gap-y-6 text-xl"
           />
-          <Socials containerStyles="flex gap-x-4 text-black " />
+          <Socials containerStyles="flex gap-x-4 text-violet-400 " />
         </div>
       </SheetContent>
     </Sheet>

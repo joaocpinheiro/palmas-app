@@ -7,7 +7,7 @@ import ApartmentsHero from '@/components/ApartmentsHero'
 
 export default function Home() {
   return (
-    <main className="max-w-[1440px] mx-auto bg-white overflow-hidden">
+    <main className="mx-auto overflow-hidden bg-white">
       <Hero />
       <Featured />
       <ApartmentsHero />

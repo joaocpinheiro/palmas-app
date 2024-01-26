@@ -13,30 +13,30 @@ import { MapPin } from 'lucide-react'
 
 const ApartmentsHero = () => {
   return (
-    <section className="py-12 xl:pt-0 xl:pb-24 ">
-      <div className="container mx-auto flex flex-col md:flex-row gap-4 lg:gap-10 items-center justify-center">
-        <Card className="hover:cursor-pointer w-max-[500px] bg-soft_green-secondary border-grey-secondary rounded-xl shadow-xl">
-          <CardHeader className="p-0 rounded-xl">
+    <section className="py-12 xl:pb-24 xl:pt-0 ">
+      <div className="container mx-auto flex flex-col items-center justify-center gap-4 md:flex-row lg:gap-10">
+        <Card className="w-max-[500px] rounded-xl border-grey-secondary bg-soft_green-secondary shadow-xl hover:cursor-pointer">
+          <CardHeader className="rounded-xl p-0">
             <Image
               src="/recommendation/hotel-1.png"
               alt=""
               width={500}
               height={500}
               quality={80}
-              className="rounded-xl rounded-b-none w-full"
+              className="w-full rounded-xl rounded-b-none"
             />
-            <CardTitle className="container text-ellipsis h3">
+            <CardTitle className="h3 container text-ellipsis">
               Palmas Beach Apto
             </CardTitle>
             <CardDescription></CardDescription>
           </CardHeader>
-          <CardContent className="ml-2 p-2 space-y-1 text-black flex gap-2 text-[13px] xl:text-md font-normal flex-col">
-            <div className="flex gap-1 items-center">
+          <CardContent className="xl:text-md ml-2 flex flex-col gap-2 space-y-1 p-2 text-[13px] font-normal text-black">
+            <div className="flex items-center gap-1">
               <p className="mr-2">8.8 - Excelente</p>
               <MapPin width={18} height={20} />
               <p className="truncate">Governador C. Ramos - Palmas</p>
             </div>
-            <div className="mt-5 flex items-center gap-2 text-md font-bold">
+            <div className="text-md mt-5 flex items-center gap-2 font-bold">
               <Image
                 src="/recommendation/beach.png"
                 alt=""
@@ -50,28 +50,28 @@ const ApartmentsHero = () => {
             <Button variant="accent">Veja mais</Button>
           </CardFooter>
         </Card>
-        <Card className="hover:cursor-pointer w-max-[500px] bg-soft_green-secondary border-grey-secondary rounded-xl shadow-xl">
-          <CardHeader className="p-0 rounded-xl">
+        <Card className="w-max-[500px] rounded-xl border-grey-secondary bg-soft_green-secondary shadow-xl hover:cursor-pointer">
+          <CardHeader className="rounded-xl p-0">
             <Image
               src="/recommendation/hotel-1.png"
               alt=""
               width={500}
               height={500}
               quality={80}
-              className="rounded-xl rounded-b-none w-full"
+              className="w-full rounded-xl rounded-b-none"
             />
-            <CardTitle className="container text-ellipsis h3">
+            <CardTitle className="h3 container text-ellipsis">
               Palmas Beach Apto
             </CardTitle>
             <CardDescription></CardDescription>
           </CardHeader>
-          <CardContent className="ml-0.5 p-1 space-y-1 text-black flex gap-2 text-[13px] xl:text-lg font-normal flex-col">
-            <div className="flex gap-1 items-center">
+          <CardContent className="ml-0.5 flex flex-col gap-2 space-y-1 p-1 text-[13px] font-normal text-black xl:text-lg">
+            <div className="flex items-center gap-1">
               <p className="mr-2">8.8 - Excelente</p>
               <MapPin width={18} height={20} />
               <p className="truncate">Governador C. Ramos - Palmas</p>
             </div>
-            <div className="mt-5 flex items-center gap-2 text-md font-bold">
+            <div className="text-md mt-5 flex items-center gap-2 font-bold">
               <Image
                 src="/recommendation/beach.png"
                 alt=""

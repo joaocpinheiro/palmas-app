@@ -31,7 +31,7 @@ const Nav = ({
       <ul className={listStyles}>
         {links.map((link, index) => {
           return (
-            <li key={index}>
+            <li key={index} className="hover:text-violet-400">
               <Link href={link.path}>{link.pathname}</Link>
             </li>
           )
